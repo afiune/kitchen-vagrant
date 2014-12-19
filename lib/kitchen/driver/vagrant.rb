@@ -23,6 +23,7 @@ require 'kitchen'
 
 # Useful VBox Machine Class
 require 'kitchen/provider/machine'
+require 'kitchen/transport/vagrant'
 
 module Kitchen
 
