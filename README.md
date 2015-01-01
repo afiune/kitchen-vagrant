@@ -133,7 +133,7 @@ visible/hidden following a create action.
 If this value is `nil` or `false` then the console will be hidden, if `true`
 the console will be visble.
 
-This is particularly helpful for debugging Virtualbox Windows guests along with
+This is particularly helpful for debugging local Virtualbox/VMware Fusion/VMware Workstation guests along with
 adding `clipboard: bidirectional` to the customize section.
 
 ### <a name="config-customize"></a> customize

@@ -36,7 +36,7 @@ c.vm.communicator = "<%= config[:communicator] %>"
 
   c.vm.provider :<%= config[:provider] %> do |p|
     <% case config[:provider]
-    when "virtualbox" %>
+    when "virtualbox", "vmware_fusion", "vmware_workstation" %>
       <% if config[:gui] %>
       p.gui = <%= config[:gui] %>
       <% end %>
